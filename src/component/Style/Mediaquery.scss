@@ -1,0 +1,82 @@
+@media screen and (max-width: 820px) {
+  .home {
+    border-radius: 0 0 100px 100px;
+    main {
+      h1 {
+        font-size: 4rem;
+      }
+    }
+    &::before {
+      border-radius: 0 0 100px 100px;
+    }
+  }
+  .home3 {
+    margin-top: -150px;
+    main {
+      width: 85%;
+      border-radius: 0 100px 100px 0;
+    }
+  }
+  .home4 {
+    div {
+      border-radius: 100px 0 0 100px;
+      article {
+        flex-direction: column;
+        margin: 1rem 0;
+        > div {
+          width: 6rem;
+          height: 6rem;
+          > svg {
+            font-size: 1.5rem;
+          }
+          > p {
+            font-size: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+  .contact-container {
+    .contact-page {
+      border-radius: 0px 50px 50px 0px;
+      h1 {
+        font-size: 1.5rem;
+        font-weight: 900;
+      }
+      main {
+        padding: 0px;
+        div {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          label {
+            margin: 5px;
+          }
+          input {
+            height: 2rem;
+            width: 6rem;
+          }
+          textarea {
+            height: 2rem;
+            width: 6rem;
+          }
+        }
+      }
+    }
+  }
+  .footer{
+    flex-direction: column;
+    height: 40vh;
+    justify-content: space-evenly;
+    .left-side-footer-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+  }
+  nav{
+    flex-direction: column;
+    padding: 0px;
+  }
+}

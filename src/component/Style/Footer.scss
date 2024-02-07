@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40vh;
+    background-color: black;
+    color: white;
+    padding: 0 5rem;
+    .left-side-footer-section{
+
+        h1{
+            letter-spacing: 3px;
+            margin-bottom: 15px;
+        }
+        p{
+            letter-spacing: 2px;
+            text-transform: capitalize;
+            margin: 3px;
+            cursor: pointer;
+        }
+    }
+    .right-side-footer-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            letter-spacing: 3px;
+            margin-bottom: 15px;
+        }
+        
+        p{
+            letter-spacing: 2px;
+            text-transform: capitalize;
+            margin: 3px;
+            cursor: pointer;
+        }
+    }
+}
